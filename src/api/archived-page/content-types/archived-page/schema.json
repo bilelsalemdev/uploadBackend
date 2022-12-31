@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "archived_pages",
+  "info": {
+    "singularName": "archived-page",
+    "pluralName": "archived-pages",
+    "displayName": "archivedPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "archivedFiles": {
+      "type": "component",
+      "repeatable": true,
+      "component": "file-type.file-type"
+    }
+  }
+}

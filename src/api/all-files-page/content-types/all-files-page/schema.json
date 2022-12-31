@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "all_files_pages",
+  "info": {
+    "singularName": "all-files-page",
+    "pluralName": "all-files-pages",
+    "displayName": "allFilesPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "allFiles": {
+      "type": "component",
+      "repeatable": true,
+      "component": "file-type.file-type"
+    }
+  }
+}

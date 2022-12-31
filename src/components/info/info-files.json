@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_info_info_files",
+  "info": {
+    "displayName": "infoFiles"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "number": {
+      "type": "integer"
+    }
+  }
+}

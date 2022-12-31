@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "starred_pages",
+  "info": {
+    "singularName": "starred-page",
+    "pluralName": "starred-pages",
+    "displayName": "starredPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "starredFiles": {
+      "type": "component",
+      "repeatable": true,
+      "component": "file-type.file-type"
+    }
+  }
+}

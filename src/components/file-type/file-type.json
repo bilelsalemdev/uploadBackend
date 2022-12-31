@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_file_type_file_types",
+  "info": {
+    "displayName": "fileType",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "size": {
+      "type": "decimal"
+    },
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": false,
+      "regex": "^.*\\.(jpg|JPG|gif|GIF|doc|DOC|pdf|PDF|txt|TXT|mp4|MP4)$"
+    },
+    "actions": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
